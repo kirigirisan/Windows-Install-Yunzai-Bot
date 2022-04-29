@@ -64,48 +64,83 @@ https://github.com/AlexanderPro/SmartSystemMenu/releases
 # 5 克隆Yunzai-Bot项目
 在你想存放机器人的文件夹中右击选择【Git Bash Here】
 
+在Git Bash窗口中执行以下指令
+
     git clone https://gitee.com/Le-niao/Yunzai-Bot.git
 
 
 # 6 打开Yunzai-Bot文件夹 安装相应模块
+在Yunzai-Bot目录下 右击选择【Git Bash Here】 
+
+在Git Bash窗口中执行以下命令
+
     npm install -g cnpm --registry=https://registry.npmmirror.com
     cnpm install
     #（cnpm这条命令只能手动输入，不能粘贴 粘贴会报错）
 
 
-# 7 打开plugin文件夹 安装喵喵插件Miao-Plugin
+# 7 安装喵喵插件Miao-Plugin
+打开Yunzai-Bot目录下的plugin文件夹 右击选择【Git Bash Here】
+
+在Git Bash窗口中执行以下命令
+
     git clone https://gitee.com/yoimiya-kokomi/miao-plugin.git
+
 
 # 8 获取米游社Cookie
 登录网页版米游社
+
 【F12】打开控制台
+
 执行指令
+
     document.cookie
+
 复制返回的内容并保存到新建文档中
 
 # 9 启动Redis服务
-在服务中打开Redis服务 //前面已经启动过
+在服务中打开Redis服务 
+
+//前面已经启动过
 
 # 10 初次启动程序
 有两种启动方法 如果第一种方法出现无法输入q号等情况的话尝试第二种
+
+
 方法1 
-    在Yunzai-Bot文件夹中右击选择【Git Bash Here】
-    执行以下指令启动程序
-        node app
-    填写相应数据 完成启动
+
+在Yunzai-Bot文件夹中右击选择【Git Bash Here】
+
+执行以下指令启动程序
+
+    node app
+
+填写相应数据 完成启动
+
+
 方法2
-    打开Yunzai-Bot目录下的config文件夹
-    复制一份【config_default.js】，并重命名为【config.js】
-    使用vs code打开【config.js】
-        填写【account】栏目下的【qq】和【pwd】
-        将刚才保存的Cookie粘贴到【mysCookies】栏目后面的[  ]内 
-            示例：
+
+打开Yunzai-Bot目录下的config文件夹
+
+复制一份【config_default.js】，并重命名为【config.js】
+
+使用vs code打开【config.js】
+
+        # 填写【account】栏目下的【qq】和【pwd】
+        # 将刚才保存的Cookie粘贴到【mysCookies】栏目后面的[  ]内 
+            # 示例：
+
             mysCookies:[ (把cookie粘贴到这里) ,]
-        在【masterQQ:】后面的[]内填写大号作为管理员qq
-        其他属性请自行更改
-    填写完成后保存 回到Yunzai-Bot目录下
-    右击选择【Git Bash Here】
-    执行以下指令启动程序
+
+        # 在【masterQQ:】后面的[]内填写大号作为管理员qq
+        # 其他属性请自行更改
+
+填写完成后保存 回到Yunzai-Bot目录下
+
+右击选择【Git Bash Here】
+    
+执行以下指令启动程序
+
         node app
 
 启动程序后，右击窗口栏，选择 系统托盘>最小化到托盘 即可后台运行
