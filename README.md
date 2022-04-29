@@ -36,9 +36,8 @@ https://github.com/tporadowski/redis/releases
 
 将Redis安装成服务
 
-    #进入redis的目录 在地址栏输入cmd
-    #执行指令
-
+    # 进入redis的目录 在地址栏输入cmd
+    # 执行以下指令
     redis-server --service-install redis.windows.conf --loglevel verbose
     #（安装redis服务）
 
@@ -48,23 +47,31 @@ windows中搜索"服务"并打开
 
 # 3 下载git
 下载地址
-    https://git-scm.com/downloads
-    选择"Windows"版本进入，点击"Click here to download"进行下载
+
+https://git-scm.com/downloads
+
+选择"Windows"版本进入，点击"Click here to download"进行下载
+
 下载完成后进行安装
 
 # 4 下载SmartSystemMenu（或任意可后台运行的console）
-    https://github.com/AlexanderPro/SmartSystemMenu/releases
+https://github.com/AlexanderPro/SmartSystemMenu/releases
+
 解压并启动SmartSystemMenu.exe
+
 在任务栏中找到程序图标，右击勾选"自动启动程序"
 
 # 5 克隆Yunzai-Bot项目
 在你想存放机器人的文件夹中右击选择【Git Bash Here】
+
     git clone https://gitee.com/Le-niao/Yunzai-Bot.git
+
 
 # 6 打开Yunzai-Bot文件夹 安装相应模块
     npm install -g cnpm --registry=https://registry.npmmirror.com
     cnpm install
-    （cnpm这条命令只能手动输入，不能粘贴 粘贴会报错）
+    #（cnpm这条命令只能手动输入，不能粘贴 粘贴会报错）
+
 
 # 7 打开plugin文件夹 安装喵喵插件Miao-Plugin
     git clone https://gitee.com/yoimiya-kokomi/miao-plugin.git
