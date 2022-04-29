@@ -141,7 +141,7 @@ https://github.com/AlexanderPro/SmartSystemMenu/releases
     
 执行以下指令启动程序
 
-        node app
+    node app
 
 启动程序后，右击窗口栏，选择 系统托盘>最小化到托盘 即可后台运行
 
@@ -155,8 +155,8 @@ https://github.com/AlexanderPro/SmartSystemMenu/releases
 
 执行命令
 
-        node app
-        
+     node app
+
 
 3 将窗口最小化到托盘
 
