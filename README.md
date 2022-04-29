@@ -148,12 +148,19 @@ https://github.com/AlexanderPro/SmartSystemMenu/releases
 # 11 再次启动/关闭程序
 # 启动
 1 启动Redis
-    搜索并打开服务列表，启动Redis
+
+搜索并打开服务列表，启动Redis
+
 2 在Yunzai-Bot目录下右击选择【Git Bash Here】
-    执行命令
+
+执行命令
         node app
+
 3 将窗口最小化到托盘
+
 # 关闭
 1 打开最小化的git窗口 将其关闭
+
 2 关闭Redis
-    搜索并打开服务列表，关闭Redis
+
+搜索并打开服务列表，关闭Redis
