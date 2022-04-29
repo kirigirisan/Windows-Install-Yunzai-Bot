@@ -36,16 +36,15 @@ https://github.com/tporadowski/redis/releases
 
 将Redis安装成服务
 
-    进入redis的目录 在地址栏输入cmd
+    #进入redis的目录 在地址栏输入cmd
+    #执行指令
 
-    执行指令
+    redis-server --service-install redis.windows.conf --loglevel verbose
+    #（安装redis服务）
 
-        redis-server --service-install redis.windows.conf --loglevel verbose
-        （安装redis服务）
+windows中搜索"服务"并打开
 
-    windows中搜索"服务"并打开
-    
-    在服务中找到【Redis】并启动该服务
+在服务中找到【Redis】并启动该服务
 
 # 3 下载git
 下载地址
