@@ -10,8 +10,9 @@ vs code
 # 1 安装nodejs
 下载地址
     http://nodejs.cn/download/
+
 下载完成后进行安装
-    //如果出现Change, repair, or remove installation界面，点击Change选项
+//如果出现Change, repair, or remove installation界面，点击Change选项
 安装完成后，按下"Win"+"R"键打开运行窗口，输入CMD打开命令行窗口
 分别输入指令检查node是否安装成功
     node -v
