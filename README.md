@@ -154,7 +154,9 @@ https://github.com/AlexanderPro/SmartSystemMenu/releases
 2 在Yunzai-Bot目录下右击选择【Git Bash Here】
 
 执行命令
+
         node app
+        
 
 3 将窗口最小化到托盘
 
