@@ -1,4 +1,4 @@
-# Windows-Install-Yunzai-Bot
+# Windows下安装Yunzai-Bot
 # b站原教程地址
 https://www.bilibili.com/read/cv15119056?spm_id_from=333.999.0.0
 # b站视频教程
@@ -10,19 +10,26 @@ vs code
 # 1 安装nodejs
 下载地址
 
-    http://nodejs.cn/download/
+http://nodejs.cn/download/
 
 下载完成后进行安装
+
 //如果出现Change, repair, or remove installation界面，点击Change选项
+
 安装完成后，按下"Win"+"R"键打开运行窗口，输入CMD打开命令行窗口
+
 分别输入指令检查node是否安装成功
+
     node -v
     npm -v
+
 如果均出现版本号，则安装成功
 
 # 2 下载Redis并解压 安装相应服务
 下载地址
-    https://github.com/tporadowski/redis/releases
+
+https://github.com/tporadowski/redis/releases
+
 点击名为"Redis-x64-xxx.zip"的文件进行下载，其中xxx为版本号
 
 下载完成后，解压文件到你想存放的目录即可
