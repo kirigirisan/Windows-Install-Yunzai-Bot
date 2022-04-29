@@ -1,4 +1,11 @@
-# Windows下安装Yunzai-Bot
+# 本地Windows系统下安装Yunzai-Bot
+如果使用云服务器部署 可省去以下步骤：
+
+【云服务器部署】2 无需将Redis添加为服务 直接点击redis-server.exe启动程序并不要关掉窗口
+
+【云服务器部署】4 无需安装SmartSystemMenu插件 因为不需要后台运行git bash窗口
+
+【云服务器部署】 扫码登录：需要搭建pptp / 密码+验证码登录： 无需搭建pptp
 # b站原教程地址
 https://www.bilibili.com/read/cv15119056?spm_id_from=333.999.0.0
 # b站视频教程
