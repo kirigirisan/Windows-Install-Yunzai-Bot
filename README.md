@@ -33,12 +33,18 @@ https://github.com/tporadowski/redis/releases
 点击名为"Redis-x64-xxx.zip"的文件进行下载，其中xxx为版本号
 
 下载完成后，解压文件到你想存放的目录即可
+
 将Redis安装成服务
+
     进入redis的目录 在地址栏输入cmd
+
     执行指令
+
         redis-server --service-install redis.windows.conf --loglevel verbose
         （安装redis服务）
+
     windows中搜索"服务"并打开
+    
     在服务中找到【Redis】并启动该服务
 
 # 3 下载git
